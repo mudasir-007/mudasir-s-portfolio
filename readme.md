@@ -61,7 +61,7 @@ Font        →  Space Grotesk + Fira Code (Google Fonts)
 ## 📁 Project Structure
 
 ```
-rajesh-portfolio/
+mudasir-portfolio/
 ├── public/
 │   └── favicon.svg
 ├── src/
@@ -153,11 +153,11 @@ npm run preview
 
 | Platform | Link |
 |---|---|
-| 📧 Email | [mubasirwani4567@gmail.com](mailto:mubasirwani4567@gmail.com) |
+| 📧 Email | [mudasirwani4567@gmail.com](mailto:mudasirwani4567@gmail.com) |
 | 💼 LinkedIn | Coming soon |
 | 🐙 GitHub | Coming soon |
 | 🐦 Twitter | Coming soon |
-| 📍 Location | Srinagar, India 🇮🇳 |
+| 📍 Location | Srinagar, India  |
 
 ---
 
