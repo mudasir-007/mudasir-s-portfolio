@@ -3,40 +3,64 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 
 const projects = [
   {
-    title:       'DevCollab Platform',
-    description: 'A full-stack developer collaboration platform with project management, Kanban task board, team invites, and JWT-based authentication. Think GitHub Issues + Trello in one app.',
-    tags:        ['React', 'Node.js', 'MongoDB', 'JWT', 'Tailwind'],
-    github:      'https://github.com/mudasir-007',
+    title:       'Car Damage Analyser',
+    description:
+      'Fork of AdityaDabgotra/Car_Damage_Analyser: turn short car-damage clips into structured, insurer-ready claims—computer vision maps body regions; an LLM suggests repair vs replace.',
+    tags:        ['TypeScript', 'Computer Vision', 'LLM'],
+    github:      'https://github.com/mudasir-007/Car_Damage_Analyser',
+    live:        '#',
+    featured:    true,
+    gradient:    'from-emerald-500/10 to-cyan-500/10',
+  },
+  {
+    title:       'DevCollab',
+    description:
+      'Full-stack developer collaboration: project spaces, Kanban-style tasks, team invites, and JWT-secured APIs—like lightweight Issues + boards for side projects.',
+    tags:        ['JavaScript', 'Node.js', 'MongoDB', 'JWT'],
+    github:      'https://github.com/mudasir-007/devcollab',
     live:        '#',
     featured:    true,
     gradient:    'from-green-500/10 to-teal-500/10',
   },
   {
-    title:       'Forever — E-Commerce Website',
-    description: 'Fully functional full-stack e-commerce website with product listings, category filtering, shopping cart, user authentication, order management, and a complete admin dashboard. Built with Stripe payment integration.',
-    tags:        ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe', 'JWT'],
-    github:      'https://github.com/mudasir-007',
+    title:       'YouTube Backend',
+    description:
+      'Backend for a YouTube-style app: video metadata, channels, auth, and REST APIs built for scale and clarity.',
+    tags:        ['JavaScript', 'Node.js', 'Express', 'REST'],
+    github:      'https://github.com/mudasir-007/youtube_backend',
     live:        '#',
     featured:    true,
-    gradient:    'from-orange-500/10 to-red-500/10',
+    gradient:    'from-red-500/10 to-orange-500/10',
   },
   {
-    title:       'Uber Clone',
-    description: 'Full-stack ride-hailing application with user and driver registration, real-time location tracking, ride requests, fare estimation, and JWT-secured REST APIs.',
-    tags:        ['React', 'Node.js', 'Express', 'MongoDB', 'Google Maps API'],
-    github:      'https://github.com/mudasir-007',
+    title:       'Uber',
+    description:
+      'Ride-hailing style stack: users and drivers, ride flow, location-aware logic, and JWT-secured endpoints.',
+    tags:        ['JavaScript', 'Node.js', 'Express', 'MongoDB'],
+    github:      'https://github.com/mudasir-007/uber',
     live:        '#',
-    featured:    true,
+    featured:    false,
     gradient:    'from-blue-500/10 to-purple-500/10',
   },
   {
-    title:       'Online Learning Platform',
-    description: 'EdTech platform where instructors create courses and students can enroll, track progress, and get AI-powered learning recommendations via LLM API integration.',
-    tags:        ['React', 'Node.js', 'Express', 'MongoDB', 'AI API'],
-    github:      'https://github.com/mudasir-007',
+    title:       'Movie Recommendation',
+    description:
+      'Recommendation pipeline for movies—ranking and suggestions driven by user preferences and metadata.',
+    tags:        ['JavaScript', 'Node.js', 'Algorithms'],
+    github:      'https://github.com/mudasir-007/movie-recommendation',
     live:        '#',
     featured:    false,
     gradient:    'from-violet-500/10 to-pink-500/10',
+  },
+  {
+    title:       'Learning Platform',
+    description:
+      'Fork of akshayrivers/IWT-Assignment: a learning platform that builds custom study paths and graphs from prompts and memory—iterative, user-shaped content.',
+    tags:        ['HTML', 'JavaScript', 'Learning UX'],
+    github:      'https://github.com/mudasir-007/Learning-Platform',
+    live:        '#',
+    featured:    false,
+    gradient:    'from-amber-500/10 to-rose-500/10',
   },
 ]
 
@@ -97,9 +121,9 @@ export default function Projects() {
         </div>
         <div className="mt-14 card glow-border text-center py-10">
           <p className="text-muted text-sm font-mono mb-2">Want to see more?</p>
-          <h3 className="text-white text-xl font-bold mb-4">Check out my GitHub</h3>
-          <a href="https://github.com/mudasir-007" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
-            <FiGithub size={18} /> View GitHub Profile
+          <h3 className="text-white text-xl font-bold mb-4">Browse all repositories</h3>
+          <a href="https://github.com/mudasir-007?tab=repositories" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
+            <FiGithub size={18} /> View on GitHub
           </a>
         </div>
       </div>

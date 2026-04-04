@@ -3,7 +3,7 @@ import { FiCode, FiServer, FiLayout, FiZap } from 'react-icons/fi'
 
 const stats = [
   { label: 'Years Coding', value: '3+' },
-  { label: 'Projects Built', value: '4+' },
+  { label: 'Projects Built', value: '6+' },
   { label: 'Technologies', value: '15+' },
   { label: 'CGPA', value: '7.3' },
 ]
@@ -55,8 +55,9 @@ export default function About() {
             </div>
             <div className="reveal-item" style={{ opacity: 0, transform: 'translateY(20px)', transition: 'all 0.6s ease 0.2s' }}>
               <p className="text-light/60 leading-relaxed">
-                I specialize in React, Node.js, and have hands-on experience building real-world full-stack
-                applications. I enjoy solving complex problems and turning ideas into clean, scalable software.
+                I specialize in React.js and Node.js—from frontend through to the backend—and have hands-on
+                experience building real-world full-stack applications. I enjoy solving complex problems and
+                turning ideas into clean, scalable software.
               </p>
             </div>
             <div className="reveal-item" style={{ opacity: 0, transform: 'translateY(20px)', transition: 'all 0.6s ease 0.3s' }}>

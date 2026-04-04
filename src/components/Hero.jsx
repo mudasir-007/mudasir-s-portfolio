@@ -3,10 +3,10 @@ import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi'
 import { HiArrowDown } from 'react-icons/hi'
 
 const ROLES = [
-  'Full Stack Developer',
-  'React Developer',
-  'Node.js Engineer',
-  'Backend Developer',
+  'MERN Stack Developer',
+  'Distributed Systems Enthusiast',
+  'Open Source Contributor',
+  '',
   'Problem Solver',
 ]
 
@@ -91,8 +91,7 @@ export default function Hero() {
             Mudasir
             <span className="block text-primary animate-glow">Mushtaq</span>
           </h1>
-          <div className="flex items-center gap-2 mb-6 h-10 animate-fade-up" style={{ animationDelay: '200ms' }}>
-            <span className="text-muted font-mono text-sm mr-1">I build</span>
+          <div className="flex items-center gap-2 mb-6 min-h-10 animate-fade-up" style={{ animationDelay: '200ms' }}>
             <span className="text-xl md:text-2xl font-semibold text-white font-mono">
               {displayed}<span className="blink text-primary">|</span>
             </span>

@@ -7,18 +7,18 @@ import {
 } from 'react-icons/si'
 
 const skills = [
-  { name: 'React.js',       level: 85, icon: SiReact,       color: '#61DAFB' },
-  { name: 'JavaScript',     level: 88, icon: SiJavascript,  color: '#F7DF1E' },
-  { name: 'Node.js',        level: 82, icon: SiNodedotjs,   color: '#68A063' },
-  { name: 'Express.js',     level: 82, icon: SiExpress,     color: '#FFFFFF' },
-  { name: 'Tailwind CSS',   level: 85, icon: SiTailwindcss, color: '#38BDF8' },
-  { name: 'MongoDB',        level: 80, icon: SiMongodb,     color: '#47A248' },
-  { name: 'PostgreSQL',     level: 70, icon: SiPostgresql,  color: '#336791' },
-  { name: 'GraphQL',        level: 65, icon: SiGraphql,     color: '#E10098' },
-  { name: 'Redis',          level: 60, icon: SiRedis,       color: '#DC382D' },
-  { name: 'Python',         level: 70, icon: SiPython,      color: '#3776AB' },
-  { name: 'Git / GitHub',   level: 88, icon: SiGit,         color: '#F05032' },
-  { name: 'HTML5 / CSS3',   level: 90, icon: SiHtml5,       color: '#E34F26' },
+  { name: 'React.js',       level: 65, icon: SiReact,       color: '#61DAFB' },
+  { name: 'JavaScript',     level: 70, icon: SiJavascript,  color: '#F7DF1E' },
+  { name: 'Node.js',        level: 75, icon: SiNodedotjs,   color: '#68A063' },
+  { name: 'Express.js',     level: 80, icon: SiExpress,     color: '#FFFFFF' },
+  { name: 'Tailwind CSS',   level: 70, icon: SiTailwindcss, color: '#38BDF8' },
+  { name: 'MongoDB',        level: 75, icon: SiMongodb,     color: '#47A248' },
+  { name: 'PostgreSQL',     level: 20, icon: SiPostgresql,  color: '#336791' },
+  { name: 'GraphQL',        level: 50, icon: SiGraphql,     color: '#E10098' },
+  { name: 'Redis',          level: 38, icon: SiRedis,       color: '#DC382D' },
+  { name: 'Python',         level: 75, icon: SiPython,      color: '#3776AB' },
+  { name: 'Git / GitHub',   level: 70, icon: SiGit,         color: '#F05032' },
+  { name: 'HTML5 / CSS3',   level: 95, icon: SiHtml5,       color: '#E34F26' },
 ]
 
 const categories = [
